@@ -3,7 +3,7 @@ function show_more1() {
     var d = new Date();
     var n = d.getDate();
 
-    if (n >= 10) {
+    if (n >= 9) {
         document.getElementById("day1header").style.display = "block";
         document.getElementById("day1text").style.display = "block";
         document.getElementById("day1img").style.display = "block";
