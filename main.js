@@ -33,7 +33,7 @@ function show_more2() {
     var d = new Date();
     var n = d.getDate();
 
-    if (n >= 10) {
+    if (n >= 11) {
         document.getElementById("day2header").style.display = "block";
         document.getElementById("day2text").style.display = "block";
         document.getElementById("day2img").style.display = "block";
