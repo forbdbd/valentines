@@ -137,6 +137,9 @@ a.button1{
     margin:0.4em auto;
     }
 }
+#recording {
+    float: right;
+}
 
 .heart {
     z-index : 999;
