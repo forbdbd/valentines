@@ -37,6 +37,7 @@ function show_more2() {
         document.getElementById("day2header").style.display = "block";
         document.getElementById("day2text").style.display = "block";
         document.getElementById("day2img").style.display = "block";
+        document.getElementById("heart").style.display = "block";
         document.getElementById("centerme").style.display = "none";
 
         document.getElementById("day1header").style.display = "none";
