@@ -84,6 +84,7 @@ function show_more3() {
         document.getElementById("day3header").style.display = "block";
         document.getElementById("day3text").style.display = "block";
         document.getElementById("day3img").style.display = "block";
+        document.getElementById("collage").style.display = "block";
         document.getElementById("centerme").style.display = "none";
 
         document.getElementById("day1header").style.display = "none";
