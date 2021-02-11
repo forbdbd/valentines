@@ -80,7 +80,7 @@ function show_more3() {
     var d = new Date();
     var n = d.getDate();
 
-    if (n >= 12) {
+    if (n >= 11) {
         document.getElementById("day3header").style.display = "block";
         document.getElementById("day3text").style.display = "block";
         document.getElementById("day3img").style.display = "block";
