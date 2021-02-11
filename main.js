@@ -22,6 +22,7 @@ function show_more1() {
         document.getElementById("day5text").style.display = "none";
         document.getElementById("day5img").style.display = "none";
         document.getElementById("recording").style.display = "none";
+        document.getElementById("collage").style.display = "none";
     }
     else {
         document.getElementById("centerme").style.display = "block";
@@ -54,6 +55,7 @@ function show_more2() {
         document.getElementById("day5header").style.display = "none";
         document.getElementById("day5text").style.display = "none";
         document.getElementById("day5img").style.display = "none";
+        document.getElementById("collage").style.display = "none";
 
     }
     else {
@@ -146,6 +148,7 @@ function show_more4() {
         document.getElementById("day5text").style.display = "none";
         document.getElementById("day5img").style.display = "none";
         document.getElementById("recording").style.display = "none";
+        document.getElementById("collage").style.display = "none";
     }
     else {
         document.getElementById("centerme").style.display = "block";
@@ -164,6 +167,7 @@ function show_more4() {
         document.getElementById("day5header").style.display = "none";
         document.getElementById("day5text").style.display = "none";
         document.getElementById("day5img").style.display = "none";
+        document.getElementById("collage").style.display = "none";
     }
     
 }
@@ -191,6 +195,7 @@ function show_more5() {
         document.getElementById("day4text").style.display = "none";
         document.getElementById("day4img").style.display = "none";
         document.getElementById("recording").style.display = "none";
+        document.getElementById("collage").style.display = "none";
     }
     else {
         document.getElementById("centerme").style.display = "block";
@@ -209,6 +214,7 @@ function show_more5() {
         document.getElementById("day5header").style.display = "none";
         document.getElementById("day5text").style.display = "none";
         document.getElementById("day5img").style.display = "none";
+        document.getElementById("collage").style.display = "none";
     }
     
 }
