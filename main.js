@@ -132,7 +132,7 @@ function show_more4() {
     var d = new Date();
     var n = d.getDate();
 
-    if (n >= 12) {
+    if (n >= 13) {
         document.getElementById("day4header").style.display = "block";
         document.getElementById("day4text").style.display = "block";
         document.getElementById("day4img").style.display = "block";
