@@ -23,6 +23,7 @@ function show_more1() {
         document.getElementById("day5img").style.display = "none";
         document.getElementById("recording").style.display = "none";
         document.getElementById("collage").style.display = "none";
+        document.getElementById("coupon").style.display = "none";
     }
     else {
         document.getElementById("centerme").style.display = "block";
@@ -56,6 +57,7 @@ function show_more2() {
         document.getElementById("day5text").style.display = "none";
         document.getElementById("day5img").style.display = "none";
         document.getElementById("collage").style.display = "none";
+        document.getElementById("coupon").style.display = "none";
 
     }
     else {
@@ -103,6 +105,7 @@ function show_more3() {
         document.getElementById("day5text").style.display = "none";
         document.getElementById("day5img").style.display = "none";
         document.getElementById("recording").style.display = "none";
+        document.getElementById("coupon").style.display = "none";
     }
     else {
         document.getElementById("centerme").style.display = "block";
@@ -129,10 +132,11 @@ function show_more4() {
     var d = new Date();
     var n = d.getDate();
 
-    if (n >= 13) {
+    if (n >= 12) {
         document.getElementById("day4header").style.display = "block";
         document.getElementById("day4text").style.display = "block";
         document.getElementById("day4img").style.display = "block";
+        document.getElementById("coupon").style.display = "block";
         document.getElementById("centerme").style.display = "none";
 
         document.getElementById("day1header").style.display = "none";
@@ -196,6 +200,7 @@ function show_more5() {
         document.getElementById("day4img").style.display = "none";
         document.getElementById("recording").style.display = "none";
         document.getElementById("collage").style.display = "none";
+        document.getElementById("coupon").style.display = "none";
     }
     else {
         document.getElementById("centerme").style.display = "block";
