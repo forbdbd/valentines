@@ -180,7 +180,7 @@ function show_more5() {
     var d = new Date();
     var n = d.getDate();
 
-    if (n >= 13) {
+    if (n >= 14) {
         document.getElementById("day5header").style.display = "block";
         document.getElementById("day5text").style.display = "block";
         document.getElementById("day5img").style.display = "block";
